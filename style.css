@@ -8,6 +8,7 @@ text-decoration:none;
 
 body{
  background-size:cover;
+ background-repeat: no-repeat;
 }
 
 header
