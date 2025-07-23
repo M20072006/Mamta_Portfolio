@@ -122,17 +122,13 @@ border: 2px solid #727fde;
 .cont{
   margin-left:10%;
   align-items: center;
-  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
-  border: 0;
+    border: 0;
   border-radius: 8px;
-  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
-  box-sizing: border-box;
-  color: #ffffff;
-  display: flex;
+    display: flex;
   font-size: 20px;
   justify-content:left;
   line-height: 1em;
-  width: 13%;
+  width: 40%;
   padding: 5px 8px ;
   text-decoration: none;
   user-select: none;
@@ -140,11 +136,13 @@ border: 2px solid #727fde;
   transition: all 0.3s;
 }
 
-.cont button{
-background-color: rgb(5, 6, 45);
-padding: 20px 20px;
+.cont button {
+margin-left:70%;
+background-color: skyblue;
+text-weight: boldest;
+padding: 18px 24px;
 border-radius: 6px;
-width: 120%;
+width: 100%;
 height: 100%;
 transition: 300ms;
 }
@@ -283,13 +281,3 @@ list-style:square;
   padding: 15px;
 }
 
-#b {
-margin-left:70%;
-background-color: skyblue;
-text-weight: boldest;
-padding: 18px 24px;
-border-radius: 6px;
-width: 20%;
-height: 100%;
-transition: 300ms;
-}
