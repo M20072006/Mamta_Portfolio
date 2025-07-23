@@ -1,7 +1,7 @@
 *
 {
  margin:0;
- padding:2rem;
+ padding:0;
 color:white;
 text-decoration:none;
 }
@@ -9,28 +9,16 @@ text-decoration:none;
 header
 {
 position:fixed;
-width:90%;
+width:100%;
 
 }
 
 #navbar{
-width:90%;
+width:100%;
 display:flex;
-font-size:1.0rem;
+font-size:25px;
 height:90px;
 background-color:#001f7c77
-}
-
-@media (max-width: 600px) {
-  .navbar {
-    font-size: 0.9rem; /* smaller on small devices */
-  }
-}
-
-@media (min-width: 1024px) {
-  .navbar {
-    font-size: 1.2rem; /* larger on desktops */
-  }
 }
 
 #logo{
@@ -108,17 +96,16 @@ font-family:georgia;
     }
 }
 
-@media (max-width: 768px) {
 .container{
 margin-left:10%;
 display: flex;
-    font-size: 1rem;
 align-items: center; 
 gap: 30%; 
 }
 
 .intro{
 display:flex;
+flex-direction: column;
 font-family:algerian;
 font-size:40px;
 font-weight:bold;
@@ -135,7 +122,12 @@ border: 2px solid #727fde;
 .cont{
   margin-left:10%;
   align-items: center;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border: 0;
   border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
   display: flex;
   font-size: 20px;
   justify-content:left;
