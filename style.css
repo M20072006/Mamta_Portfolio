@@ -6,6 +6,10 @@ color:white;
 text-decoration:none;
 }
 
+body{
+ background-size:cover;
+}
+
 header
 {
 position:fixed;
